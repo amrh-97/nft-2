@@ -211,8 +211,13 @@ body {
 
 /* -- Header -- */
 
-#header {
+#main__header {
     position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    background-color: var(--nft--color-7);
+    box-shadow: 0px 0px 5px 3px #ffffff0f;
 }
 
 .header,
@@ -350,6 +355,10 @@ body {
 .header__nav-open-icon,
 .header__nav-close-icon {
     display: none;
+}
+
+.header--sticky {
+    background-color: red;
 }
 
 /* ========================================================== */
