@@ -1,0 +1,56 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* -- Section-1 -- */
+
+    .h1__global--img,
+    .h1__global--light {
+        font-size: 50px;
+    }
+
+    .h1__global--bold {
+        font-size: 70px;
+    }
+
+    .sec1 {
+        min-height: 85vh;
+    }
+
+    /* -- Section-3 -- */
+
+    .sec3__top__subheading {
+        width: 65%;
+    }
+
+    /* -- Section-4 -- */
+
+    .sec4__auctionbox {
+        height: 346px;
+    }
+
+    /* -- Section-5 -- */
+
+    .sec5 {
+        height: 540px;
+    }
+
+    .sec5__creatorboxes-crtbox {
+        height: 250px;
+    }
+
+    .crtbox__userinfo-details {
+        font-size: var(--nft--fsize--2);
+    }
+
+    /* -- Section-7 -- */
+
+    .sec7 {
+        height: 300px;
+    }
+}
+
+/* =================================================== */
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+/* ========================================= */

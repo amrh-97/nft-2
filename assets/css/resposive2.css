@@ -1,0 +1,371 @@
+@media (max-width: 992px) {
+    .header__actions {
+        display: none;
+    }
+
+    .sec1 {
+        min-height: 1060px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sec1__content-left {
+        width: 100%;
+    }
+
+    .sec1__right {
+        width: 60%;
+    }
+
+    .sec2 {
+        height: 1400px;
+    }
+
+    .sec2__fecboxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .selbox:last-child {
+        display: none;
+    }
+
+    .sec2__sellerboxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec3 {
+        height: 1240px;
+    }
+
+    .sec3__top {
+        flex-direction: column;
+        gap: var(--nft--gap--1);
+    }
+
+    .sec3__top__imgsec,
+    .sec3__top__txtsec {
+        width: 100%;
+    }
+
+    .sec4__auctionboxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .aucbox__imgsec {
+        height: 210px;
+    }
+
+    .sec4__auctionbox {
+        height: 349px;
+    }
+
+    .sec4 {
+        height: 960px;
+    }
+
+    .sec5__creatorboxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec5__creatorboxes-crtbox {
+        height: 287px;
+    }
+
+    .sec5 {
+        height: 900px;
+    }
+
+    .sec6__userinfo-inner:last-child {
+        display: none;
+    }
+
+    .sec6__userinfo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sec7__img:nth-child(odd) {
+        display: none;
+    }
+
+    .sec7__img-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--nft--gap--1);
+    }
+
+    .footer__subscribe-details {
+        width: 90%;
+    }
+
+    .main__footer {
+        height: 640px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header__nav-open-icon,
+    .header__nav-close-icon {
+        display: block;
+        color: var(--nft--color-2);
+        font-size: 30px;
+    }
+
+    .header__nav-close-icon {
+        width: 80%;
+        height: 96px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+    }
+
+    .header__nav-list {
+        width: 80%;
+    }
+
+    .header__nav {
+        width: 80%;
+        height: 100vh;
+        background-color: var(--nft--color-5);
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+
+    .header__nav--active {
+        display: flex;
+    }
+
+    .h1__global--img,
+    .h1__global--light {
+        font-size: 60px;
+    }
+
+    .h1__global--bold {
+        font-size: 90px;
+    }
+
+    .sec1__right {
+        width: 80%;
+    }
+
+    .sec1 {
+        min-height: 1120px;
+    }
+
+    .sec2__fecboxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .selbox:nth-child(2) {
+        display: none;
+    }
+
+    .sec2__sellerboxes {
+        grid-template-columns: 1fr;
+    }
+
+    .sec3__bottomboxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec3 {
+        height: 1340px;
+    }
+
+    .sec4__auctionboxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec5__creatorboxes {
+        grid-template-columns: 1fr;
+    }
+
+    .sec5__creatorboxes-crtbox {
+        height: 447px;
+    }
+
+    .sec5 {
+        height: 1720px;
+    }
+
+    .sec6__userinfo-inner:nth-child(3) {
+        display: none;
+    }
+
+    .sec6__userinfo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec7 {
+        height: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .h1__global--img,
+    .h1__global--light {
+        font-size: 40px;
+    }
+
+    .sec1--arrow-img {
+        width: 60px;
+    }
+
+    .h1__global--bold {
+        font-size: 80px;
+    }
+
+    .sec1__right {
+        width: 100%;
+    }
+
+    .sec1 {
+        min-height: 920px;
+    }
+
+    .sec2__heading {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .sec2__fecboxes {
+        grid-template-columns: 1fr;
+    }
+
+    .sec2__heading2,
+    .sec4__heading {
+        flex-direction: column;
+        align-items: start;
+        gap: var(--nft--gap--1);
+    }
+
+    .sec2 {
+        height: 2400px;
+    }
+
+    .sec3__top__subheading {
+        width: 100%;
+    }
+
+    .sec3__top__rewardimg {
+        width: 40px;
+    }
+
+    .sec3__top__reward {
+        font-size: var(--nft--fsize--3);
+    }
+
+    .sec3__bottomboxes {
+        grid-template-columns: 1fr;
+    }
+
+    .sec3__bottombox__dec {
+        width: 90%;
+    }
+
+    .sec3 {
+        height: 1500px;
+    }
+
+    .h2__global {
+        font-size: 34px;
+    }
+
+    .sec4__auctionboxes {
+        grid-template-columns: 1fr;
+    }
+
+    .aucbox__imgsec {
+        height: 370px;
+    }
+
+    .sec4__auctionbox {
+        height: 522px;
+    }
+
+    .sec4 {
+        height: 2400px;
+    }
+
+    .sec5__headingsec,
+    .sec6__headingsec {
+        flex-direction: column;
+        gap: var(--nft--gap--1);
+        align-items: start;
+    }
+
+    .sec5__creatorboxes-crtbox {
+        height: 342px;
+    }
+
+    .sec5 {
+        height: 1500px;
+    }
+
+    .sec6__testimonial-feedback {
+        font-size: var(--nft--fsize--5);
+    }
+
+    .sec6__testimonial-conatiner {
+        height: 236px;
+    }
+
+    .sec6__userinfo-inner:nth-child(2) {
+        display: none;
+    }
+
+    .sec6__userinfo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .aucbox__imgsec {
+        height: 280px;
+    }
+
+    .sec4__auctionbox {
+        height: 427px;
+    }
+
+    .sec4 {
+        height: 2000px;
+    }
+
+    .sec5__creatorboxes-crtbox {
+        height: 254px;
+    }
+
+    .sec5 {
+        height: 1200px;
+    }
+
+    .sec7 {
+        height: 200px;
+    }
+
+    .footer__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .main__footer {
+        height: 1160px;
+    }
+
+    .footer__instagram {
+        height: auto;
+    }
+}
